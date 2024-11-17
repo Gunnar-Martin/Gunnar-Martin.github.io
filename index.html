@@ -13,23 +13,25 @@
       color: white;
     }
     .card {
-      cursor: pointer;
-      transition: transform 0.3s ease;
-    }
-    .card:hover {
-      transform: scale(1.05);  /* Slightly enlarge the card when hovered */
-    }
-    .container {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+  .card:hover {
+  transform: scale(1.05);  /* Slightly enlarge the card when hovered */
+}
+.container {
       width: 100%; /* Make it responsive */
       height: 100vh;
       position: relative;
       background: #004C50;
     }
-    .card {
+        .card {
       width: 287px;
       height: 100px;
       position: absolute;
       box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); /* Adjusted box shadow for better fit */
+     
+      
     }
     .card .card-header {
       width: 100%;
@@ -37,6 +39,7 @@
       background: #D9D9D9;
       border: 5px solid #A46237;
     }
+
     .card .card-body {
       font-size: 24px;
       font-weight: 700;
@@ -45,14 +48,17 @@
       left: 6px;
       top: 50px;
     }
+
     .smallBodyText {
-      font-size: 18px;
-      position: absolute;
-      left: 720px;
-      top: 230px;
-      color: white;
-      z-index: 9999;  /* Higher values bring it to the front */
-    }
+    font-size: 18px;
+    position: absolute;
+    left: 720px;
+    top: 230px;
+    color: white;
+    z-index: 9999;  /* Higher values bring it to the front */
+}
+    
+
     /* Image Styles */
     .image1 {
       width: 100%;
@@ -68,7 +74,10 @@
       position: absolute;
       top: 133px;
       left: 179px;
+      
     }
+
+
     /* Overlay */
     .overlay, .overlay-box {
       position: absolute;
@@ -87,6 +96,7 @@
       top: 230px;
       left: 715px;
     }
+
     /* New overlay div (your request) */
     .new-overlay {
       width: 407px;
@@ -97,6 +107,7 @@
       top: 225px; /* Adjust as needed */
       left: 715px; /* Adjust as needed */
     }
+
     /* Header */
     .header {
       font-size: 64px;
@@ -107,7 +118,8 @@
       color: white;
       z-index: 10;
     }
-    .footer {
+
+     .footer {
       width: 394px;
       height: 6px;
       position: absolute;
@@ -131,6 +143,8 @@
       cursor: pointer;
       z-index: 20;
     }
+    
+
     /* Contact and Name */
     .name {
       font-size: 28px;
@@ -162,14 +176,21 @@
       text-align: center;
       color: white;
     }
+
     /* Footer */
+   
+
     /* LinkedIn Logo */
+    
     .linkedin-logo img {
       width: 40px;
       height: 40px;
       border-radius: 50%;
+
     }
+
     /* Card Styles */
+
     .card .card-title {
       font-size: 32px;
       font-weight: 700;
@@ -178,19 +199,24 @@
       left: 6px;
       top: 7px;
     }
+    
+    
+    
   </style>
 </head>
 <body>
 
-  <main class="container">
-    <img class="image1" src="assets/Images/cover.jpeg" alt="Cover Image" />
-    <img class="image2" src="assets/Images/profile.jpg" alt="Profile Image" />
+  <div class="container">
+    <img class="image1" src="Images/cover.jpeg" alt="Cover Image" />
+    <img class="image2" src="Images/profile.jpg" alt="Profile Image" />
     
     <div class="smallBodyText">port body text</div>
+
 
     <div class="overlay"></div>
     <div class="header">Portfolio</div>
     <div class="footer"></div>
+
 
     <div class="name">Gunnar Martin</div>
     <div class="small-text">Geospatial student</div>
@@ -203,41 +229,42 @@
       </div>
     </a>
 
-    <a href="Skills.html" class="card-link" style="text-decoration: none;">
-      <div class="card" style="top: 637px; left: 752px;">
-        <div class="card-header"></div>
-        <div class="card-title">Skills</div>
-        <div class="card-body">body</div>
-      </div>
-    </a>
 
-    <a href="GISPortfolio.html" class="card-link" style="text-decoration: none;">
-      <div class="card" style="top: 637px; left: 44px;">
-        <div class="card-header"></div>
-        <div class="card-title">GIS Portfolio</div>
-        <div class="card-body">body</div>
-      </div>
-    </a>
+        <div class="contact-info">gunnar.martin@maine.edu</div>
+    <div class="email">Email-</div>
 
-    <a href="JobExperience.html" class="card-link" style="text-decoration: none;">
-      <div class="card" style="top: 637px; left: 1106px;">
-        <div class="card-header"></div>
-        <div class="card-title">Job Experience</div>
-        <div class="card-body">body</div>
-      </div>
-    </a>
+    <!-- Cards -->
+  
+
+  <a href="Skills.html" class="card-link" style="text-decoration: none;">
+    <div class="card" style="top: 637px; left: 752px;">
+      <div class="card-header"></div>
+      <div class="card-title">Skills</div>
+      <div class="card-body">body</div>
+    </div>
+
+  <a href="GISPortfolio.html" class="card-link" style="text-decoration: none;">
+    <div class="card" style="top: 637px; left: 44px;">
+      <div class="card-header"></div>
+      <div class="card-title">GIS Portfolio</div>
+      <div class="card-body">body</div>
+    </div>
+
+  <a href="JobExperience.html" class="card-link" style="text-decoration: none;">
+    <div class="card" style="top: 637px; left: 1106px;">
+      <div class="card-header"></div>
+      <div class="card-title">Job Experience</div>
+      <div class="card-body">body</div>
+    </div>
+   
 
     <!-- New overlay div added -->
     <div class="new-overlay"></div>
 
     <!-- LinkedIn Logo with Link -->
-    <a href="https://www.linkedin.com/in/gunnar-martin-58848030b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios" class="linkedin-logo">
-      <img src="assets/Images/linkedin.jpeg" alt="LinkedIn Logo" />
+   <a href="https://www.linkedin.com/in/gunnar-martin-58848030b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios" class="linkedin-logo">
+      <img src="Images/linkedin.jpeg" alt="LinkedIn Logo" />
     </a>
-
-    <div class="contact-info">gunnar.martin@maine.edu</div>
-    <div class="email">Email-</div>
-  </main>
-
+  </div>
 </body>
 </html>
