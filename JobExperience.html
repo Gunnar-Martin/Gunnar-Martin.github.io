@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Experience</title>
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: Merriweather, sans-serif;
+      background-color: #004C50;
+      color: white;
+    }
+    .home-button {
+    position: fixed;
+    top: 20px; /* Adjust the vertical position */
+    left: 20px; /* Adjust the horizontal position (use 'right: 20px;' for the top-right corner) */
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    background-color: #A46237; /* Button background matches your accent color */
+    border: 2px solid #A46237; /* Border in accent color */
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    z-index: 100; /* Ensures the button is above other elements */
+  }
+
+  /* Hover Effect */
+  .home-button:hover {
+    background-color: #004C50; /* Hover background matches page background */
+    color: #A46237; /* Text color changes to the accent color */
+    border-color: #004C50; /* Border color matches hover background */
+    transform: scale(1.05); /* Slightly enlarges the button when hovered */
+  }
+
+    .container {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      background-color: #004C50;
+      padding-top: 40px; /* Space for header */
+    }
+
+    /* Header */
+    .header {
+      font-size: 64px;
+      font-weight: 700;
+      text-align: center;
+      color: white;
+      margin-bottom: 30px;
+    }
+
+    /* Intro Section */
+    .intro {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 0 20px;
+    }
+
+    .intro h2 {
+      font-size: 36px;
+      color: #A46237;
+      font-weight: 700;
+    }
+
+    .intro p {
+      font-size: 18px;
+      color: white;
+    }
+
+    /* Job Experience Section */
+    .job-section {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      box-sizing: border-box;
+      margin-bottom: 40px;
+    }
+
+    .job-section .text {
+      width: 48%;
+    }
+
+    .job-section .text h3 {
+      font-size: 32px;
+      color: #A46237;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .job-section .text p {
+      font-size: 18px;
+      color: white;
+    }
+
+    .job-section .image {
+      width: 48%;
+      height: auto;
+    }
+
+    .job-section img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #A46237;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .footer a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      Job Experience
+    </div>
+
+    <!-- Intro Section -->
+    <div class="intro">
+      <h2>My Professional Journey</h2>
+      <p>Below are some of the key positions I have held during my career. Each role has provided valuable experience and has contributed to my professional growth in the GIS and geospatial fields.</p>
+    </div>
+
+    <!-- Job Experience Section 1 -->
+    <div class="job-section">
+      <div class="text">
+        <h3>GIS Analyst Intern</h3>
+        <p><strong>Company:</strong> XYZ Geospatial Solutions</p>
+        <p><strong>Duration:</strong> June 2023 – August 2023</p>
+        <p><strong>Description:</strong> In this internship, I worked on creating detailed GIS maps for urban planning projects, using ArcGIS and QGIS. I also assisted in data collection, cleaning, and analysis for various environmental and planning reports.</p>
+      </div>
+      <div class="image">
+        <img src="images/gis-analyst.jpg" alt="GIS Analyst">
+      </div>
+    </div>
+
+    <!-- Job Experience Section 2 -->
+    <div class="job-section">
+      <div class="text">
+        <h3>Geospatial Data Technician</h3>
+        <p><strong>Company:</strong> ABC Mapping Services</p>
+        <p><strong>Duration:</strong> September 2021 – May 2023</p>
+        <p><strong>Description:</strong> I was responsible for managing geospatial datasets, performing spatial analysis, and assisting with the creation of interactive maps for clients in the real estate and transportation sectors. Additionally, I helped automate data processing workflows using Python and GIS software tools.</p>
+      </div>
+      <div class="image">
+        <img src="images/geospatial-technician.jpg" alt="Geospatial Data Technician">
+      </div>
+    </div>
+
+    <!-- Job Experience Section 3 -->
+    <div class="job-section">
+      <div class="text">
+        <h3>Field Mapping Specialist</h3>
+        <p><strong>Company:</strong> Global Environmental Solutions</p>
+        <p><strong>Duration:</strong> January 2020 – August 2021</p>
+        <p><strong>Description:</strong> In this role, I led field mapping efforts for environmental impact assessments. I used GPS and remote sensing technologies to collect accurate spatial data, which was then used for creating detailed land-use maps and environmental reports.</p>
+      </div>
+      <div class="image">
+        <img src="images/field-mapping.jpg" alt="Field Mapping Specialist">
+      </div>
+    </div>
+
+     <a href="GunnarPortfolio.html" class="home-button">
+  Home
+</a>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>For more information, contact me at <a href="mailto:gunnar.martin@maine.edu">gunnar.martin@maine.edu</a></p>
+    </div>
+
+  </div>
+
+</body>
+</html>
